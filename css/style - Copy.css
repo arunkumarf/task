@@ -1,0 +1,430 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            color: #000;
+        }
+        
+        section {
+            margin: 76px 0 76px 0;
+        }
+        
+        h1 {
+            color: #ff4800;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 31px;
+            text-align: center;
+        }
+        
+        h2:after {
+            content: "";
+            width: 10%;
+            height: 2px;
+            background-color: #ff4800;
+            display: block;
+            margin: 16px auto;
+            text-align: center;
+        }
+        
+        .dvstory img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .dvstorycont {
+            text-align: center;
+        }
+        
+        .dvstorycont p {
+            color: #848484;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 19px;
+        }
+        
+        .dvstorycont p span {
+            font-weight: 600;
+            font-size: 20px;
+            display: block;
+            color: #000;
+        }
+        
+        .fas,
+        .far {
+            font-size: 35px;
+            color: #fff;
+        }
+        
+        .dvservice-row {
+            position: relative;
+            margin: auto;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        ul li {
+            display: inline-block;
+            background-color: #ff4800;
+            margin: 30px 20px;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.44);
+            -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.44);
+            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.44);
+            position: relative;
+        }
+        
+        ul li a {
+            color: white;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            text-decoration: none;
+            height: 80px;
+            width: 80px;
+        }
+        
+        ul li a~p {
+            display: inline-block;
+            position: absolute;
+            font-size: 10px;
+            font-weight: 500;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 14px;
+            padding: 10px 0px;
+        }
+        
+        ul li a:hover,
+        ul li a:active {
+            color: lightsalmon;
+            text-decoration: none;
+        }
+        
+        .dvoffer img {
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .dvoffer h3 {
+            font-weight: 600;
+            font-size: 20px;
+            display: block;
+            color: #000;
+            padding-top: 13px;
+        }
+        
+        .dvoffer p {
+            padding: 10px 20px 0 50px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 19px;
+        }
+        
+        .dvservice {
+            background: rgba(247, 247, 247, 1);
+        }
+        
+        .dvservicecol {
+            width: 280px;
+            position: relative;
+            margin: auto;
+        }
+        
+        .dvservicecol img {
+            width: 100%;
+        }
+        
+        .dvservicecol h2 {
+            background-color: #ff4800;
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 15px 5px;
+        }
+        
+        .dvservicecol h2:after {
+            margin: 0;
+        }
+        
+        .dvchoose {
+            background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/why-choose.jpg") no-repeat 0 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/why-choose.jpg") no-repeat 0 0;
+            background-size: cover;
+        }
+        
+        .dvchoosebox {
+            background-color: #ff4800;
+            color: #fff;
+            padding: 0;
+        }
+        
+        .dvchoosebox h3 {
+            font-size: 17px;
+            font-weight: 600;
+            padding-top: 12px;
+            padding-left: 25px;
+        }
+        
+        .dvchoosebox p {
+            padding: 2px 25px;
+        }
+        
+        .title {
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 10px
+        }
+        
+        .content {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            overflow: hidden
+        }
+        
+        .content .content-overlay {
+            background: rgba(255, 72, 0, 0.8);
+            position: absolute;
+            height: 97%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+            border-radius: 3px;
+        }
+        
+        .content:hover .content-overlay {
+            opacity: 1
+        }
+        
+        img~h2 {
+            background-color: #ff4800;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 5px 0;
+            border-radius: 0 0 3px 3px;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        img~h2::after {
+            margin: 0;
+        }
+        
+        .content-image {
+            width: 100%
+        }
+        
+        .content-image img {
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+            border-radius: 3px 3px 0 0;
+        }
+        
+        .content-details {
+            position: absolute;
+            text-align: center;
+            padding-left: 1em;
+            padding-right: 1em;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s
+        }
+        
+        .content:hover .content-details {
+            top: 50%;
+            left: 50%;
+            opacity: 1
+        }
+        
+        .content-details h3 {
+            color: #fff;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase
+        }
+        
+        .content-details p {
+            color: #fff;
+            font-size: 13px;
+        }
+        
+        .fadeIn-bottom {
+            top: 80%
+        }
+        /*media queries*/
+        
+        @media screen and (min-width: 320px) {}
+        
+        @media only screen and (min-width: 320px) and (max-width: 575px) {}
+        
+        .dvoffer img,
+        svg {
+            width: 20%;
+        }
+        
+        .dvoffer h3 {
+            font-size: 14px;
+            padding-top: 4px;
+        }
+        
+        .dvoffer p {
+            padding: 0px 0px 0 78px;
+            line-height: 16px;
+        }
+        
+        .shape-circle-img1 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+        
+        .shape-circle-img1 img {
+            -webkit-animation: movebounce 5s linear infinite;
+            animation: movebounce 5s linear infinite;
+        }
+        
+        .shape-circle-img2 {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+        
+        .shape-circle-img2 img {
+            -webkit-animation: movebounce 5s linear infinite;
+            animation: movebounce 5s linear infinite;
+        }
+        
+        @-webkit-keyframes movebounce {
+            0% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+            50% {
+                -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+            }
+            100% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+        }
+        
+        @keyframes movebounce {
+            0% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+            50% {
+                -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+            }
+            100% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 767px) {
+            .dvoffer h3 {
+                padding-top: 14px;
+            }
+            .dvoffer img,
+            svg {
+                width: 15%;
+            }
+            .content-details p {
+                font-size: 10px;
+            }
+            ul li {
+                margin: 30px 23px;
+            }
+            .shape-circle-img1 {
+                display: none;
+            }
+            .shape-circle-img2 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .shape-circle-img1 {
+                display: none;
+            }
+            .shape-circle-img2 {
+                display: none;
+            }
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .dvstorycont h2:after {
+                margin: 20px 0;
+            }
+            .fas {
+                left: 15px;
+            }
+            .dvstorycont,
+            .dvstory {
+                text-align: left;
+            }
+            .dvstorycont h1,
+            .dvstorycont h2 {
+                text-align: left;
+            }
+            .dvchoosebox {
+                max-width: 48%;
+                margin: auto;
+            }
+            img~h2 {
+                font-size: 16px;
+            }
+            .dvoffer img,
+            svg {
+                width: 20%;
+            }
+            .dvoffer h3 {
+                padding-top: 9px;
+            }
+            .shape-circle-img1 {
+                display: none;
+            }
+            .shape-circle-img2 {
+                display: none;
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {}
